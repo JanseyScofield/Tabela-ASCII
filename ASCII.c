@@ -11,7 +11,7 @@ int main()
             b[iCont] = num%2;
             num /= 2;
         }
-        long int base = 1;
+        int base = 1;
         for(int iCont = 0; iCont < 8; iCont++){
             bin += b[iCont] * base;
             base *= 10;
@@ -25,5 +25,5 @@ int main()
         }
     }
 
-    return 0;
+    return 1;
 }
